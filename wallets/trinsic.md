@@ -28,22 +28,23 @@ The credential can be delivered to the user via email or through the sharing of 
 
 Upon clicking the link or scanning the QR code, if the user isn’t logged into the cloud wallet, they will be directed to a sign-in page. However, if the user is already logged in, this step is skipped.
 
-![Trinsic sign in](../imgs/wallets/trinsic/trinsic-signin.png)
 
+<img src="../imgs/wallets/trinsic/trinsic-signin.png" width="300" >
 
 The user is required to provide an email and subsequently use a one-time password code sent to the provided email in the next step.
 
-![Trinsic sign-in code](../imgs/wallets/trinsic/trinsic-confirm-email-login.png)
+
+<img src="../imgs/wallets/trinsic/trinsic-confirm-email-login.png" width="300" >
 
 After entering the received code and completing the login process, a pop-up appears, presenting the user with the *credential offer*:
 
 
-![Trinsic credential offer](../imgs/wallets/trinsic/trinsic-credential-offer.png)
+<img src="../imgs/wallets/trinsic/trinsic-credential-offer.png" height="400" >
 
 After accepting the offer, the credential is listed in the cloud wallet:
 
-![Trinsic credential accepted](../imgs/wallets/trinsic/trinsic-credential-accepted.png)
 
+<img src="../imgs/wallets/trinsic/trinsic-credential-accepted.png" width="500" >
 
 ### Privacy considerations:
 
@@ -57,15 +58,16 @@ Once the user receives their credential, they can use it with any verifier that 
 
 In the Trinsic demo, users can access an online service acting as the verifier and click on the 'verify my profile' button. 
 
-![Trinsic credential verifier](../imgs/wallets/trinsic/trinsic-verifier-page.png)
+<img src="../imgs/wallets/trinsic/trinsic-verifier-page.png" width="500">
 
+trinsic-credential-accepted.png
 If the user is already logged into their wallet, a new window appears, displaying the credential and its associated attributes ready to be shared. However, if the user is not logged in, they will encounter the login flow prompting them to enter the email associated with their wallet, as described in the provision section.
 
-![Trinsic credential select credential](../imgs/wallets/trinsic/trinsic-select-credential.png)
+<img src="../imgs/wallets/trinsic/trinsic-select-credential.png" height="500">
 
 When the verifier specifies a mandatory set of attributes, the new window displays these required attributes as pre-selected, preventing the user from deselecting them. Additionally, other available attributes are shown as unselected. This differs from situations where no mandatory attributes are set, as in those cases, all available attributes were initially presented as pre-selected.
 
-![Trinsic credential required attributes](../imgs/wallets/trinsic/trinsic-select-credential-required-attributes.png)
+<img src="../imgs/wallets/trinsic/trinsic-select-credential-required-attributes.png" height="500">
 
 In the paid plans (while we're currently using the free plan for testing), users will have the capability to export the credential as a "shared pass" to Google or Apple wallets. This shared pass is essentially a representation of the credential and includes a QR code. When scanned, this QR code redirects to Trinsic's branded studio, specifically to a validation page for verification.
 
@@ -79,7 +81,7 @@ In the paid plans (while we're currently using the free plan for testing), users
 
 Once in their wallets, users can delete a credential.
 
-![Trinsic credential delete credential](../imgs/wallets/trinsic/trinsic-delete-credential.png)
+<img src="../imgs/wallets/trinsic/trinsic-delete-credential.png" height="500">
 
-![Trinsic credential delete credential confirm](../imgs/wallets/trinsic/trinsic-delete-credential-confirm.png)
+<img src="../imgs/wallets/trinsic/trinsic-delete-credential-confirm.png" height="500">
 
