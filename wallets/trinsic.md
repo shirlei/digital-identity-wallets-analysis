@@ -85,3 +85,10 @@ Once in their wallets, users can delete a credential.
 
 <img src="../imgs/wallets/trinsic/trinsic-delete-credential-confirm.png" height="500">
 
+# Final Remarks
+
+The user's experience involves receiving a verifiable credential during a provisioning step initiated by the online service. Initially, a service-specific onboarding occurs (which is out of scope), followed by the issuance of the credential. Subsequently, the user receives notification of the issuance through email, a web link, or a QR code, prompting them to accept the credential offer.
+
+However, if the user already has a cloud wallet linked to the email address used for sending the credential offer, the offer doesn't appear upon logging into the wallet. In this case, the user needs to explicitly open the URL provided for that specific offer to view and accept it.
+
+Offering multiple methods to access the credential offer, beyond solely relying on QR code scanning, is a notable advantage. This approach is particularly advantageous because QR codes have faced some criticism regarding their usage.
