@@ -1,0 +1,1 @@
+[Trinsic](trinsic.md)
