@@ -49,7 +49,7 @@ After accepting the offer, the credential is listed in the cloud wallet:
 ### Privacy considerations:
 
 1. DID terminology might not be easily understandable for all users. Therefore, in the 'Issued by' section, it would enhance transparency to provide clear details about the actual issuer. This includes information such as the organisation's name and additional details that could be expanded upon to offer more comprehensive information.
-1. In line with standard practices seen in most online services, the cloud wallet in the free plan requires users to provide an email address. In the absence of an email confirmation process, it's essential to establish a means of verifying that the intended recipient is the rightful owner of the provided email address. Without such verification measures, there's a risk that the verifiable credential could be inadvertently delivered to an unintended recipient. 
+2. In line with standard practices seen in most online services, the cloud wallet in the free plan requires users to provide an email address. In the absence of an email confirmation process, it's essential to establish a means of verifying that the intended recipient is the rightful owner of the provided email address. Without such verification measures, there's a risk that the verifiable credential could be inadvertently delivered to an unintended recipient. 
 As the assessment was done in the free plan where only this option is available, it is not clear if, in the production ecosystem of paid plans, emails can be used this way to log in to wallets.
 
 ## Usage, Update and Maintainance
@@ -92,3 +92,7 @@ The user's experience involves receiving a verifiable credential during a provis
 However, if the user already has a cloud wallet linked to the email address used for sending the credential offer, the offer doesn't appear upon logging into the wallet. In this case, the user needs to explicitly open the URL provided for that specific offer to view and accept it.
 
 Offering multiple methods to access the credential offer, beyond solely relying on QR code scanning, is a notable advantage. This approach is particularly advantageous because QR codes have faced some criticism regarding their usage.
+
+Regarding privacy, in the provisioning phase, enhancing transparency within the wallet application is crucial. Simplifying technical terms like DID (decentralized identifier) and providing clear issuer details could improve user understanding and transparency. Additionally, the absence of robust email verification in the free plan poses a risk of unintended credential delivery, highlighting the need for secure recipient verification.
+
+Transitioning to the usage phase, the automatic pre-selection of credentials and attributes contradicts privacy principles. Users might unintentionally share incorrect credentials due to default selections. A more privacy-by-default approach involves allowing users to manually select attributes for sharing. The implementation's selective disclosure feature is noteworthy, enabling users to share specific attributes without revealing all information at once.

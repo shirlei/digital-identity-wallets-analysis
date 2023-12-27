@@ -85,3 +85,11 @@ Once in their wallets, users can delete a credential.
 
 
 # Final Remarks
+
+The demo's experience is somewhat constrained as it primarily focuses on illustrating the involved protocols — such as establishing a DID connection and communicating through it by offering a VC and requesting proof of a VC. The wallet provides PIN and biometric unlocking options, facilitating secure access to the app.
+
+Regarding privacy aspects, the demo offers limited visibility into how user data is managed and shared within the credentialing process. There are potential privacy implications in two areas:
+
+(a) Automatic Selection of Credentials: the automatic selection of a credential among multiple options might compromise user privacy if users are unaware of this selection or unable to easily modify it. This could inadvertently disclose sensitive information, impacting user privacy.
+
+(b) Selective Information Sharing: the demonstration's constrained information presentation within the credential raises concerns about the user's ability to selectively share specific data. This lack of granularity in information sharing might pose privacy risks if users cannot control the data they disclose.
