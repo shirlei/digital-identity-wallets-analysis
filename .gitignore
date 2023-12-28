@@ -1,1 +1,5 @@
 .DS_Store
+wallets/*.html
+wallets/*.pdf
+wallets/*.png
+wallets/*.jpeg

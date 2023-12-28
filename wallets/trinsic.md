@@ -8,6 +8,8 @@ Developer url: [https://trinsic.id/](https://trinsic.id/)
 
 Documentation: [https://docs.trinsic.id/guide/platform-walkthrough/](https://docs.trinsic.id/guide/platform-walkthrough/)
 
+Demo:  [https://dashboard.trinsic.id](https://dashboard.trinsic.id)
+
 
 Note: During the tool selection process, the Trinsic ID wallet was initially chosen from the Apple Store. However, upon closer examination, it was discovered that the mobile version is limited in its use, functionality and user base, being specifically designed for Trinsic and its partners in a product known as "Trinsic Connect."
 

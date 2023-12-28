@@ -1,5 +1,11 @@
 # Overview
 
+Type:  mobile wallet
+
+Developer url: [https://esatus.com/](https://esatus.com/)
+
+Demo: [https://wallet-demo.esatus.com/](https://wallet-demo.esatus.com/)
+
 # Identity Lifecycle
 
 ## Provision
@@ -86,9 +92,9 @@ Once in their wallets, users can delete a credential.
 
 # Final Remarks
 
-The demo's experience is somewhat constrained as it primarily focuses on illustrating the involved protocols — such as establishing a DID connection and communicating through it by offering a VC and requesting proof of a VC. The wallet provides PIN and biometric unlocking options, facilitating secure access to the app.
+The demo's experience is somewhat constrained as it primarily focuses on illustrating the protocols implemented by the wallet app — such as establishing a DID connection and communicating through it by offering a VC and requesting proof of a VC. The wallet provides PIN and biometric unlocking options, facilitating secure access to the app.
 
-Regarding privacy aspects, the demo offers limited visibility into how user data is managed and shared within the credentialing process. There are potential privacy implications in two areas:
+As the demo provides a restricted amount of information within the credential (just a user ID for testing purposes), it remains unclear whether the user would be able to selectively choose which information from the credential to share. There are potential privacy implications in two areas:
 
 (a) Automatic Selection of Credentials: the automatic selection of a credential among multiple options might compromise user privacy if users are unaware of this selection or unable to easily modify it. This could inadvertently disclose sensitive information, impacting user privacy.
 
