@@ -62,7 +62,6 @@ In the Trinsic demo, users can access an online service acting as the verifier a
 
 <img src="../imgs/wallets/trinsic/trinsic-verifier-page.png" width="500">
 
-trinsic-credential-accepted.png
 If the user is already logged into their wallet, a new window appears, displaying the credential and its associated attributes ready to be shared. However, if the user is not logged in, they will encounter the login flow prompting them to enter the email associated with their wallet, as described in the provision section.
 
 <img src="../imgs/wallets/trinsic/trinsic-select-credential.png" height="500">

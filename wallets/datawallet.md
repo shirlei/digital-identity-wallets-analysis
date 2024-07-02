@@ -69,14 +69,11 @@ Once the user confirms, data is shared and the wallet confirms.
 
 <img src="../imgs/wallets/datawallet/2.3-data-wallet-proof-request-details.png" height="600">
 
-
 <img src="../imgs/wallets/datawallet/2.2-data-wallet-proof-request-details.png" height="600">
-
 
 Following the data-sharing process, the user's information is used to complete the requested form by the verifier, and the completed form is displayed on the screen.
 
 <img src="../imgs/wallets/datawallet/2.4-data-wallet-page-shared-data.png">
-
 
 When a user possesses multiple Verifiable Credentials (VCs) meeting the criteria, the wallet seems to select the first one and displays a message indicating the presence of multiple credentials. As there is no emphasis on this information, there's a possibility that the user might not notice it, potentially leading to inadvertently sharing incorrect or unintended information.
 
