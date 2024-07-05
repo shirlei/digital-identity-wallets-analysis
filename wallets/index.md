@@ -1,20 +1,20 @@
-[BC Wallet](bcwallet.md)
-
-[Data Wallet](datawallet.md)
-
-[Dock Wallet](dockwallet.md)
+[Trinsic](trinsic.md)
 
 [Esatus](esatus.md)
 
 [Lissi](lissi.md)
 
-[Mattr](mattr.md)
+[Data Wallet](datawallet.md)
+
+[wwWallet](wwWallet.md)
 
 [Polygon ID](polygonid.md)
 
-[Sideos](sideostransponder.md)
+[Mattr](mattr.md)
 
-[Trinsic](trinsic.md)
+[BC Wallet](bcwallet.md)
 
-[wwWallet](wwWallet.md)
+
+
+
 
