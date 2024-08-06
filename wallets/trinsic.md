@@ -20,7 +20,7 @@ In paid plans, users have access to a larger quantity of wallets and credentials
 
 ## Provision
 
-An issuer issues a verifiable credential for a subject.
+An issuer issues a verifiable credential to a subject.
 
 Example:
 

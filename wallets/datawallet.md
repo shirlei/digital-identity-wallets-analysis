@@ -10,7 +10,7 @@ Demo: [https://igrant.io/datawallet.html](https://igrant.io/datawallet.html)
 
 ## Provision
 
-An issuer issues a verifiable credential for a subject. For instance, the individual verifies their identity with an issuer (an onboarding process out-of-scope) and requests the issuance of a Verifiable Credential (VC).
+An issuer issues a verifiable credential to a subject. For instance, the individual verifies their identity with an issuer (an onboarding process out-of-scope) and requests the issuance of a Verifiable Credential (VC).
 
 
 Users read a QR code to identify themselves and request the issuance of a VC, using some identification protocol (in the demo, a PIN for an OpenID workflow).

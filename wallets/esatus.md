@@ -72,7 +72,7 @@ The user has the option to choose a different credential by tapping on the issue
 <img src="../imgs/wallets/esatus/3.4-esatus-wallet-select-credential.png" width="400">
 
 
-Upon modifying (or leaving unchanged) the selected credential details and clicking 'send,' the credential is transmitted to the issuer. Subsequently, the user receives a confirmation indicating the successful sending of the credential.
+Upon modifying (or leaving unchanged) the selected credential details and clicking 'send,' the credential is transmitted to the verifier. Subsequently, the user receives a confirmation indicating the successful sending of the credential.
 
 <img src="../imgs/wallets/esatus/3.2-esatus-wallet-proof-request-sent.png" height="600">
 
