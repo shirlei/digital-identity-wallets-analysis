@@ -84,11 +84,45 @@ The wallet has a *my shared data* feature, with a search option, that lists user
 <img src="../imgs/wallets/datawallet/2.5-data-wallet-search-shared-data.png" height="600">
 
 
+A Data Agreement Policy link is shown in credential details.
+
+<img src="../imgs/wallets/datawallet/7-data-agreement-policy.png" height="600">
+
+When clicking the link, policy details are shown: 
+
+<img src="../imgs/wallets/datawallet/7.1-data-agreement-policy-details.png" height="600">
+
+
 
 ### Privacy considerations
 1. If a user holds multiple credentials that match the required type by the verifier, one of these credentials is automatically chosen and shown by default. The user might not be aware that they can change the pre-selected credential or might overlook this option, leading to the unintentional sharing of an incorrect credential.
 2. The searchable history of shared data has the potential to offer users transparency and control. However, at this stage, it's somewhat confusing as it combines the history of received credentials with shared data.
 3. The wallet aims to accommodate multiple use cases, such as digitising scanned documents, which might not align with the terminology commonly used in specialised self-sovereign/decentralised identity wallets. For instance, terms like *data card* encompass various types of "cards" within the wallet, including VCs. Another instance is the inclusion of *data agreement signed* within the *My Shared Data* section, covering both received and shared "data cards". Standardising the terminology is expected to enhance users' awareness of privacy implications when sharing their data.
+
+
+Backup
+
+<img src="../imgs/wallets/datawallet/4-datawallet-enable-backup.png" height="500">
+
+<img src="../imgs/wallets/datawallet/4.1-datawallet-backup-icloud.png" height="500">
+
+<img src="../imgs/wallets/datawallet/4.2-datawallet-backup-exporting.png" height="500">
+
+
+Settings:
+
+<img src="../imgs/wallets/datawallet/5-data-wallet-settings.png" height="600">
+
+<img src="../imgs/wallets/datawallet/5.1-data-wallet-settings.png" height="600">
+
+Verifier data agreement:
+
+<img src="../imgs/wallets/datawallet/6-data-wallet-sharing-data-agreement.png" height="600">
+
+
+<img src="../imgs/wallets/datawallet/6.1-data-wallet-history-data-agreement.png" height="600">
+
+<img src="../imgs/wallets/datawallet/6.2-data-wallet-data-agreement-details.png" height="600">
 
 ## De-provision
 
